@@ -105,3 +105,30 @@ button{
 .test h4{
     margin-left: 60%;
 }
+
+.end{
+    padding: 10%;
+}
+
+.end .label{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+
+.end button{
+    border: 1px solid white;
+}
+
+footer{
+    display: flex;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
