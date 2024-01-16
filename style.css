@@ -1,30 +1,67 @@
 *{
+    font-family: Arial;
 }
-
 header{
-    display: flex;
     background-color: #1F2937;
     margin: 0;
-    padding-top: 10px;
-    height: 400px;
+    padding: 10px;
+    height: 450px;
 }
-
-#header_buttons{
-    margin-left: 55%;
-    font-size: 18px;
-    color: #E5E7EB;
-    background-color: #1F2937;
-}
-
-a{
-    background-color: #1F2937;
-    color: #E5E7EB;
-
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 #logo_img{
     height: 60px;
     width: 60px;
     border-radius: 100%;
-    margin-left: 20%;
+    margin-left: 10%;
+}
+
+#header_buttons{
+    margin-left: 45%;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+
+
+a{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-left: 10px;
+}
+
+.dbgcolor{
+    color:#f9faf8;
+    padding:0% 5%;
+    width: 40%;
+}
+
+.dbgcolor h3{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.dbgcolor p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    color: #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+#team_img{
+    height: 300px;
+    width: 540px;
 }
