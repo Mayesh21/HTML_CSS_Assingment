@@ -33,6 +33,7 @@ a{
     background-color: #1F2937;
     color: #E5E7EB;
     padding-left: 10px;
+    text-decoration: none;
 }
 
 .dbgcolor{
@@ -41,7 +42,7 @@ a{
     width: 40%;
 }
 
-.dbgcolor h3{
+.dbgcolor h2{
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
@@ -59,9 +60,28 @@ button{
     font-size: 18px;
     padding: 10px 40px;
     font-weight: bold;
+    border: none;
 }
 
 #team_img{
     height: 300px;
     width: 540px;
+}
+
+#info{
+    text-align: center;
+}
+.grid{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    margin:0 20%;
+}
+.grid .box{
+    height: 150px;
+    width: 150px;
+    border: 1px solid blue;
+    border-radius: 10px;
 }
