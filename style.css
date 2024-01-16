@@ -1,0 +1,9 @@
+*{
+    background-color: #3882F6;
+}
+
+#logo_img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
