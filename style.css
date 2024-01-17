@@ -17,8 +17,8 @@ header {
 }
 
 #logo_img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
     margin-left: 10%;
 }
@@ -28,6 +28,7 @@ header {
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
+    align-self: center;
 }
 
 
@@ -63,6 +64,7 @@ button {
     padding: 10px 40px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 
 #team_img {
@@ -82,7 +84,7 @@ button {
     grid-template-rows: auto;
     justify-items: center;
     text-align: center;
-
+    margin: 0 15%;
 }
 
 .box {
@@ -90,16 +92,18 @@ button {
     width: 150px;
     border: 3px solid #3882f6;
     border-radius: 10px;
+    z-index: 3;
 }
 
 .grid div {
     width: 150px;
-
+    
 }
 
 .box img {
     height: 150px;
     width: 150px;
+    border-radius: 7px;
 }
 
 .test {
@@ -111,9 +115,11 @@ button {
     font-size: 36px;
     font-weight: lighter;
     color: #1f2937;
+    width: 90%;
 }
 
 .test p {
+    text-align: center;
     font-style: italic;
 }
 
